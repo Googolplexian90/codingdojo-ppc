@@ -6,6 +6,7 @@ font-family: sans-serif; /* 1 */
 -webkit-text-size-adjust: 100%; /* 2 */
 }
 body {
+color: #333;
 margin: 0;
 }
 /* HTML5 display definitions
@@ -206,3 +207,56 @@ nav ul li a {
 	line-height: 31px;
 	
 }
+article {
+	background-color: #000;
+	padding: 15px;
+}
+article h3 {
+	background: #FAD23F repeat-x url(img/header_gradient.png);
+	line-height: 26px;
+	font-size: 18px;
+	margin: 0;
+	padding: 0px 15px;
+	box-sizing: border-box;
+}
+p {
+	font-size: 14px;
+}
+.article .blurb, .article .image {
+	box-sizing: border-box;
+	margin: 0px 15px;
+}
+.article .blurb {
+	padding: 0 15px;
+}
+#featured .image,#featured h3,#featured .blurb {
+	display: inline-block;
+}
+#featured { position: relative; }
+#featured h3 {
+	width: 66%;
+	position: absolute;
+	margin: 0 15px;
+	top: 0;
+	right: 0;
+}
+#featured h4 {
+	text-transform: none;
+	margin:10px 0;
+}
+#featured p {
+	margin: 10px 0;
+}
+#featured .blurb {
+	position: absolute;
+	top:26px;
+	right: 0;
+	background-color: rgba(255,255,255,0.5);
+	color: #fff;
+	width: 66%;
+	height: 239px
+}
+#featured .image {
+	width: 30%;
+}
+#featured img { border: 5px solid #fff; }
