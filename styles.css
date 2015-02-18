@@ -208,18 +208,18 @@ nav ul li a {
 	
 }
 header,nav,article {
-	width: 1200px;
+	width: 1000px;
 	margin: 0 auto;
 }
 article {
 	background-color: #000;
 	padding: 15px;
-	width: 1170px;
+	width: 970px;
 }
 article h3 {
 	background: #FAD23F repeat-x url(img/header_gradient.png);
 	line-height: 26px;
-	font-size: 18px;
+	font-size: 16px;
 	margin: 0;
 	padding: 0px 15px;
 	box-sizing: border-box;
@@ -234,23 +234,31 @@ p {
 	text-decoration: none;
 	color: olive;
 }
+.article {
+	width: 222px;
+	margin: 0px 15px;
+	background-color: #fff;
+	display: inline-block;
+	vertical-align: top;
+}
 .article .blurb, .article .image {
 	box-sizing: border-box;
-	margin: 0px 15px;
 }
 .article .blurb {
 	padding: 0 15px;
-}
-#featured .image,#featured h3,#featured .blurb {
 	display: inline-block;
 }
-#featured {position: relative;}
-#featured h3 {
-	width: 740px;
-	position: absolute;
-	margin: 0 15px;
-	top: 0;
-	right: 0;
+#featured .article {
+	width: 100%;
+	display: block;
+	background-color: transparent;
+}
+#featured .image {
+	display: inline-block;
+}
+#featured h3 { 
+	margin: 0 -30px;
+	color:#333; 
 }
 #featured h4 {
 	text-transform: none;
@@ -260,13 +268,13 @@ p {
 	margin: 10px 0;
 }
 #featured .blurb {
-	position: absolute;
-	top:26px;
-	right: 0;
 	background-color: rgba(255,255,255,0.5);
 	color: #fff;
-	width: 740px;
-	height: 239px
+	width: 540px;
+	height: 265px;
+	margin-left: 15px;
+	vertical-align:top;
+	padding: 0 30px;
 }
 #featured .image {
 	width: 380px;
