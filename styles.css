@@ -207,9 +207,14 @@ nav ul li a {
 	line-height: 31px;
 	
 }
+header,nav,article {
+	width: 1200px;
+	margin: 0 auto;
+}
 article {
 	background-color: #000;
 	padding: 15px;
+	width: 1170px;
 }
 article h3 {
 	background: #FAD23F repeat-x url(img/header_gradient.png);
@@ -222,6 +227,13 @@ article h3 {
 p {
 	font-size: 14px;
 }
+#rss-feed {
+	margin: 10px 30px;
+}
+#rss-feed a {
+	text-decoration: none;
+	color: olive;
+}
 .article .blurb, .article .image {
 	box-sizing: border-box;
 	margin: 0px 15px;
@@ -232,9 +244,9 @@ p {
 #featured .image,#featured h3,#featured .blurb {
 	display: inline-block;
 }
-#featured { position: relative; }
+#featured {position: relative;}
 #featured h3 {
-	width: 66%;
+	width: 740px;
 	position: absolute;
 	margin: 0 15px;
 	top: 0;
@@ -253,10 +265,10 @@ p {
 	right: 0;
 	background-color: rgba(255,255,255,0.5);
 	color: #fff;
-	width: 66%;
+	width: 740px;
 	height: 239px
 }
 #featured .image {
-	width: 30%;
+	width: 380px;
 }
 #featured img { border: 5px solid #fff; }
