@@ -1,7 +1,7 @@
 /* Reset Style */
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 html {
-font-family: sans-serif; /* 1 */
+font-family: verdana, sans-serif; /* 1 */
 -ms-text-size-adjust: 100%; /* 2 */
 -webkit-text-size-adjust: 100%; /* 2 */
 }
@@ -203,7 +203,7 @@ nav ul li a {
 	text-decoration: none;
 	color: #333;
 	font-weight: bold;
-	font-size: 12px;
+	font-size: 10px;
 	line-height: 31px;
 	
 }
